@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122592042779",
+    "firebase_url": "https://androidletseat-99da9.firebaseio.com",
+    "project_id": "androidletseat-99da9",
+    "storage_bucket": "androidletseat-99da9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122592042779:android:9cfac2170bca1043",
+        "android_client_info": {
+          "package_name": "com.example.odiljon.letseat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122592042779-kl5bn3b3jet3e55l3vfo6vaatfvtgpj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.odiljon.letseat",
+            "certificate_hash": "5201947e999bdb553ccf36a98ed6dab6ecccf966"
+          }
+        },
+        {
+          "client_id": "122592042779-k2ffbsoondlq9f36p4djdk0honqu1oq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-IMjNX_tUk0I_m--myuRHNUfs7HHg3gs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122592042779-k2ffbsoondlq9f36p4djdk0honqu1oq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
