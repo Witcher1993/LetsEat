@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bkgtwo"
     tools:context=".SignUp">
 
     <!-- COMMENTS  -->
@@ -22,14 +23,14 @@
             android:hint="Phone Number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/black"
+            android:textColorHint="#e4e5d0"
             android:text="0988123388"
             android:textSize="34sp"
             android:inputType="phone"
-            app:met_baseColor="@android:color/black"
+            app:met_baseColor="@android:color/white"
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="11"
-            app:met_primaryColor="@android:color/black"
+            app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true"
             />
 
@@ -39,31 +40,32 @@
             android:hint="Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/black"
+            android:textColorHint="@android:color/white"
             android:text="Keanu Reeves"
             android:textSize="34sp"
             android:inputType="text"
-            app:met_baseColor="@android:color/black"
+            app:met_baseColor="@android:color/white"
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="26"
-            app:met_primaryColor="@android:color/black"
+            app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true"
             />
 
         <!-- COMMENTS  -->
+
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edit_password_sign_up_activity"
             android:hint="Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/black"
+            android:textColorHint="@android:color/white"
             android:text="12345678"
             android:textSize="34sp"
             android:inputType="textPassword"
-            app:met_baseColor="@android:color/black"
+            app:met_baseColor="@android:color/white"
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="11"
-            app:met_primaryColor="@android:color/black"
+            app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true"
             />
 
@@ -72,6 +74,7 @@
     </LinearLayout>
 
     <!-- COMMENTS  -->
+
     <Button
         android:id="@+id/sign_up_button_sign_up_activity"
         android:text="Sign Up"
@@ -79,6 +82,29 @@
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="26sp"/>/>
+
+
+
+    <!--
+    <info.hoang8f.widget.FButton
+        android:id="@+id/sign_up_button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        app:buttonColor="@color/button_sign_up"
+        app:cornerRadius="4dp"
+        app:shadowColor="@android:color/white"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp" />
+        -->
+
 
 </RelativeLayout>

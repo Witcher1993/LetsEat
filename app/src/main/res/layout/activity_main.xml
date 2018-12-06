@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:padding="2dp"
+    android:background="@drawable/bkgtwo"
     >
 
 
@@ -18,18 +19,20 @@
 
         <!-- COMMENTS -->
 
+        <!--
         <ImageView
             android:src="@drawable/image"
             android:layout_width="200dp"
             android:layout_height="200dp" />
+             -->
 
 
         <!-- COMMENTS -->
         <TextView
             android:id="@+id/text_view_slogan"
             android:text="@string/slogan"
-            android:textSize="16sp"
-            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
             android:gravity="center"
             android:layout_width="200dp"
             android:layout_height="match_parent" />
@@ -66,6 +69,7 @@
         <Button
             android:id="@+id/sign_up_button"
             android:text="Sign Up"
+            android:textSize="20sp"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
@@ -89,6 +93,7 @@
 
         <Button
             android:id="@+id/sign_in_button"
+            android:textSize="20sp"
             android:text="Sign In"
             android:layout_weight="1"
             android:layout_width="0dp"

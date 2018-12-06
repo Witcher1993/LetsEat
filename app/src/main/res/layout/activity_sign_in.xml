@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bkgtwo"
     tools:context=".SignIn">
 
     <!-- COMMENTS  -->
@@ -22,14 +23,14 @@
             android:hint="Phone Number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/black"
+            android:textColorHint="@android:color/white"
             android:text="0988123344"
             android:textSize="34sp"
             android:inputType="phone"
-            app:met_baseColor="@android:color/black"
+            app:met_baseColor="@android:color/white"
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="11"
-            app:met_primaryColor="@android:color/black"
+            app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true"
             />
 
@@ -39,14 +40,14 @@
             android:hint="Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/black"
+            android:textColorHint="@android:color/white"
             android:text="12345678"
             android:textSize="34sp"
             android:inputType="textPassword"
-            app:met_baseColor="@android:color/black"
+            app:met_baseColor="@android:color/white"
             app:met_floatingLabel="highlight"
             app:met_maxCharacters="11"
-            app:met_primaryColor="@android:color/black"
+            app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true"
             />
 
@@ -55,6 +56,8 @@
     </LinearLayout>
 
     <!-- COMMENTS  -->
+
+
     <Button
         android:id="@+id/sign_in_button_sign_in_activity"
         android:text="Sign In"
@@ -62,6 +65,24 @@
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="26sp"/>
+
+
+    <!--
+    <info.hoang8f.widget.FButton
+        android:id="@+id/sign_in_button"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        app:buttonColor="@color/button_sign_up_active"
+        app:shadowColor="@android:color/white"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        app:cornerRadius="4dp"/>
+        -->
 
 </RelativeLayout>
